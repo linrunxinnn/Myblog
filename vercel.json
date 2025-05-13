@@ -4,7 +4,7 @@
       "src": "my-blog/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "my-blog/docs/.vitepress/dist"
+        "distDir": "docs/.vitepress/dist"
       }
     }
   ],
