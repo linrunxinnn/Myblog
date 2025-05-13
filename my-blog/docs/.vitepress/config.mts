@@ -15,7 +15,7 @@ import { blogTheme } from "./blog-theme";
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
-  base: "/my-blog",
+  base: "/my-blog/",
   lang: "zh-cn",
   title: "linrunxinnn博客",
   lastUpdated: true,
