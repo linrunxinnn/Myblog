@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "my-blog/package.json",
+      "src": "/package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "docs/.vitepress/dist"
