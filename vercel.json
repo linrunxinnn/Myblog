@@ -1,17 +1,17 @@
 {
   "builds": [
     {
-      "src": "my-blog/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "my-blog/docs/.vitepress/dist"
+        "distDir": "docs/.vitepress/dist"
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "my-blog/docs/.vitepress/dist/index.html"
+      "dest": "docs/.vitepress/dist/index.html"
     }
   ]
 }
